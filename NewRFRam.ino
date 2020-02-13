@@ -9,9 +9,6 @@
 #define RF95_FREQ 430.65
 
 //Defines for FRAM chip
-#define FRAM_SCK 13
-#define FRAM_MISO 12
-#define FRAM_MOSI 11
 #define FRAM_CS 8
 #define FRAM_HOLD 7
 RH_RF95 rf95(RFM95_CS, RFM95_INT);
@@ -25,7 +22,7 @@ void setup() {
   if(rf95.init()) {
     Serial.println("Poggers");
   } else {
-    Serial.println("NIGGER");
+    Serial.println("AAAAAAAAA");
     for(;;);
   }
   if(rf95.setFrequency(RF95_FREQ)) {
