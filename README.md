@@ -6,7 +6,7 @@ the Adafruit SPI FRAM breakout board and the RFM96 LoRa radio board.
 More specificially, it allows you to write random values to the first 128
 bytes of RAM, transmit said bytes over the air, and do other funky stuff.
 
-#####WARNING
+##### WARNING
 
 This sketch uses the 70cm ham band in the US, and transmitting on this band
 without a license may make the FCC mad at you, and also make boomers complain
